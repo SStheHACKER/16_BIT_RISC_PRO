@@ -2,8 +2,6 @@
 
 A 16-bit RISC processor with a custom instruction set architecture (ISA), designed and implemented using Verilog HDL. This project features a **6-stage pipeline**, **hazard mitigation**, and a functional verification suite built on **Xilinx Vivado**.
 
-## 📅 Duration
-**December 2024 – January 2025**
 
 ---
 ![image](https://github.com/user-attachments/assets/c165bae5-0e07-4e60-bb74-727b314dda6c)
