@@ -8,23 +8,55 @@ A 16-bit RISC processor with a custom instruction set architecture (ISA), design
 
 ## 🚀 Features
 
-- **Custom 16-bit RISC Architecture**  
-  Designed to execute 14 well-defined instructions including:
-  - Arithmetic operations (ADD, SUB)
-  - Logical operations (AND, OR, NOT, XOR)
-  - Load/Store (LD, ST)
-  - Control flow (BEQ, BNE, JUMP)
+### 🔧 Custom 16-bit RISC Architecture
+A lightweight, custom-designed Reduced Instruction Set Computing (RISC) processor capable of executing 14 essential instructions tailored for embedded and educational applications.
 
-- **6-Stage Pipeline Architecture**  
-  The processor pipeline consists of:
-  1. Instruction Fetch (IF)  
-  2. Instruction Decode (ID)  
-  3. Register Read (RR)  
-  4. Execute (EX)  
-  5. Memory Access (MEM)  
-  6. Write Back (WB)
+Supported instruction categories include:
 
-- **Simulation & Testing**
+- **Arithmetic Operations**: `ADD`, `SUB`  
+  Perform basic integer operations using register-based operands.
+
+- **Logical Operations**: `AND`, `OR`, `NOT`, `XOR`  
+  Enable bitwise logic computations within the ALU.
+
+- **Data Transfer**: `LD` (Load), `ST` (Store)  
+  Support memory interaction for loading data into and storing data from registers.
+
+- **Control Flow Instructions**: `BEQ` (Branch if Equal), `BNE` (Branch if Not Equal), `JUMP`  
+  Facilitate program control and decision-making through conditional and unconditional branching.
+
+This custom ISA ensures clarity, simplicity, and efficient hardware implementation while covering essential functionality.
+
+---
+
+### ⛓️ 6-Stage Pipeline Architecture
+
+To enhance instruction throughput and mimic modern processor behavior, the CPU is designed with a **6-stage pipeline**. Each instruction progresses through the following stages:
+
+1. **Instruction Fetch (IF)**  
+   Retrieves the next instruction from program memory.
+
+2. **Instruction Decode (ID)**  
+   Decodes the instruction opcode and determines the required control signals.
+
+3. **Register Read (RR)**  
+   Reads data from the register file based on the instruction’s source operands.
+
+4. **Execute (EX)**  
+   Performs arithmetic or logical operations using the ALU.
+
+5. **Memory Access (MEM)**  
+   Loads from or stores data to memory if required by the instruction.
+
+6. **Write Back (WB)**  
+   Writes the result back into the destination register.
+
+This pipeline structure enables **instruction-level parallelism**, significantly improving overall performance compared to a single-cycle design. Proper hazard detection and stall mechanisms are implemented to ensure correctness during pipeline execution.
+
+---
+
+
+### 🧪 **Simulation & Testing**
   - Functionality verified through **testbenches**.
   - Simulated and tested using **Xilinx Vivado** to ensure performance and correctness.
 ---
