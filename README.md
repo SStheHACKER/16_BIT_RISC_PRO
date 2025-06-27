@@ -28,7 +28,7 @@ A 16-bit RISC processor with a custom instruction set architecture (ISA), design
   - Functionality verified through **testbenches**.
   - Simulated and tested using **Xilinx Vivado** to ensure performance and correctness.
 ---
-### Modules
+## Modules
 - Control Unit - It controls how the input are processed by the processor to perform the required operation as defined by the instruction sets. The image given below is the how the Control Unit is connected in the main processor unit (CPU).
 Note - For a detailed, view please refer to `Controller_Schematic.pdf`.
 ![image](https://github.com/user-attachments/assets/be6a420f-8e39-43d1-9599-280b74be233b)
