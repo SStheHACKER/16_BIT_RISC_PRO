@@ -34,9 +34,10 @@ Note - For a detailed, view please refer to `Controller_Schematic.pdf`.
 ![image](https://github.com/user-attachments/assets/be6a420f-8e39-43d1-9599-280b74be233b)
 - Dataflow - Based on the instructions sets, it is responsible fro performing multiple operations in the processor which is a 6 pipelined structure as above. Instructions are passed through this part of processor and the operation is performed. The image given below is the how the Control Unit is connected in the main processor unit (CPU).
 Note - For a detailed, view please refer to `Dataflow_Schematic.pdf`.
-
-- Below is the a testbench which is simualated on the Xilinx Vivado. 
 ![image](https://github.com/user-attachments/assets/34698b29-6878-41de-8430-adc4aa36da32)
+- Below is the a testbench which is simualated on the Xilinx Vivado. 
+![Screenshot 2025-06-28 030147](https://github.com/user-attachments/assets/820c42cd-f29f-42fe-81ff-94bd1243a8d5)
+
 
 ---
 
