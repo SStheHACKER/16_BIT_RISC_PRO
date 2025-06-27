@@ -1,4 +1,4 @@
-# 16-Bit RISC-Based Pipelined Processor
+![image](https://github.com/user-attachments/assets/d8d88f48-eea5-4c21-8cf4-5f15bd68c5cb)# 16-Bit RISC-Based Pipelined Processor
 
 A 16-bit RISC processor with a custom instruction set architecture (ISA), designed and implemented using Verilog HDL. This project features a **6-stage pipeline**, **hazard mitigation**, and a functional verification suite built on **Xilinx Vivado**.
 
@@ -6,7 +6,8 @@ A 16-bit RISC processor with a custom instruction set architecture (ISA), design
 **December 2024 – January 2025**
 
 ---
-![image](https://github.com/user-attachments/assets/35aa6490-2e24-4810-b01b-6682ae530ada)
+![image](https://github.com/user-attachments/assets/c165bae5-0e07-4e60-bb74-727b314dda6c)
+
 
 
 ## 🚀 Features
@@ -28,6 +29,8 @@ A 16-bit RISC processor with a custom instruction set architecture (ISA), design
   6. Write Back (WB)
 
 ![image](https://github.com/user-attachments/assets/be6a420f-8e39-43d1-9599-280b74be233b)
+![image](https://github.com/user-attachments/assets/f3ed2a6e-6d9b-4cd4-90da-2c1be5b2761e)
+
 
 - **Hazard Mitigation**
   - Implemented mechanisms to handle **data hazards** and **control hazards**.
